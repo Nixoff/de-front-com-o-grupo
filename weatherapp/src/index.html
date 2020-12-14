@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css//normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css//style.css">
     <title>weather app</title>
 </head>
 <body>
-    <div>
+    <div class="container">
       <h1>Weather App</h1>  
-      <form>
-          <input type="text" placeholder="Nome da cidade" />
-          <button type="submit">Submit</button>
-      </form>
+      <form class="formGroup">
+              <img src="assets/cloud.svg">
+              <input type="text" placeholder="Local" />
+              <button type="submit">Buscar</button>
+     </form>
     </div>
 <script src="js/api.js"> </script>
 </body>
