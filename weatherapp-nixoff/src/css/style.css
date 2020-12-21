@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    /* overflow: hidden; */
+    margin: 0;
+    height: 100vh;
+    background: rgb(54,50,82);
+    background: linear-gradient(344deg, rgba(54,50,82,1) 0%, rgba(54,50,82,1) 28%, rgba(54,50,82,1) 45%, rgba(130,97,113,1) 100%);
+}
+
+.container{
+    /* display: flex; */
+    width: 30%;
+    height: 95%;
+    margin: 0px auto;
+    background-image: url(../assets/img/Sun.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    top: 3%;
+    position: relative;
+}
+
+.container:after{
+    content:'';
+    position:absolute;
+    top:0;
+    bottom:0;
+    border-radius: 20px;
+
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,.6);
+}
+
+main {
+    padding: 40% 0 0 5%;
+}
+
+strong{
+    font-size: 100pt;
+    z-index: 1;
+}
+
+.display {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.display > small{
+    font-size: 20pt;
+    margin-top: -8%;
+    margin-left: -10%;
+}
+
+.footer-main{
+  /*   position: relative;
+    top: 280px; */
+    margin-top: 37%;
+    cursor: default;
+}
+.footer-tomorrow{
+    margin-bottom: 34px !important;
+}
+.footer-tomorrow, .footer-today {
+    display: flex;
+}
+.footer--tomorrow__span{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+.footer--today__span {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+
+small {
+    font-size: 13pt;
+    z-index: 1;
+}
+
+em {
+    display: flex;
+    align-items: flex-end;
+    margin-top: -4%;
+    font-weight: 600;
+    /* color: rgb(85, 85, 85); */
+    color: white;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+h2{
+    z-index: 1;
+}
